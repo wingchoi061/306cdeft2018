@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Personal Data Privacy - How to protect your personal data privacy?</title>
+ 
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="portfolio-item.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Personal Data Privacy - How to protect your personal data privacy?</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+               <a class="nav-link" href="/home">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="/Login">Login</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="/favoritelist">Favorite List</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Signup">Signup</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="/SeachList">SearchList</a>
+              <li class="nav-item">
+              <a class="nav-link" href="/Search">DataSearch</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 300%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  width: 300%;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+</style>
+</head>
+<body>
+
+<h2>Search in Website</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<ul id="myUL">
+  <li><a href="http://mydb-wingchoi06116707441.codeanyapp.com:8080/Login">Login</a></li>
+    <li><a href="http://mydb-wingchoi06116707441.codeanyapp.com:8080/favoritelist">Favorite List</a></li>
+  <li><a href="http://mydb-wingchoi06116707441.codeanyapp.com:8080/Signup">Signup</a></li>
+
+  <li><a href="http://mydb-wingchoi06116707441.codeanyapp.com:8080/Search">DataSearch</a></li>
+  <li><a href="http://mydb-wingchoi06116707441.codeanyapp.com:8080/information">Be careful when you take photos and shoot videos</a></li>
+
+  <li><a href="http://mydb-wingchoi06116707441.codeanyapp.com:8080/information2">If you need to take pictures or record some inappropriate video delete it from the device</a></li>
+  <li><a href="http://mydb-wingchoi06116707441.codeanyapp.com:8080/information3">Protect the device with a password</a></li>
+  <li><a href="http://mydb-wingchoi06116707441.codeanyapp.com:8080/information4">Do not store inappropriate photos or videos on Drop Box</a></li>
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+
+        }
+    }
+}
+</script>
+
+</body>
+</html>
+
