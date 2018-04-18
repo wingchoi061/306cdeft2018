@@ -202,8 +202,7 @@ $(document).ready(function()
       type: 'POST',
       data: $('#formID').serialize(),
       success: function(result){
-        //alert("ddd");
-      alert("return="+result);  
+        //alert("ddd"); 
         stringMsg = JSON.parse(result);
 alert("stringMsg:"+stringMsg);
 
@@ -211,7 +210,6 @@ alert("stringMsg:"+stringMsg);
      
       var x;
 x = stringMsg[i].link1;
-alert("x:"+x);
  //document.write('<p>' + x + '</p>');
 //$("#demo").append('<a href="x">'+x</a>+"<br>");
      
